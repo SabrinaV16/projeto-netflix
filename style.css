@@ -1,0 +1,62 @@
+body {
+    background: rgb(0, 0, 0);
+    font: normal 15pt Arial;  
+}
+
+header{
+    color:rgb(255, 0, 0);
+    text-align: center;    
+
+}
+
+.container-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+.caixa-loguin {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: #a72828;
+    width: 100%;
+    max-width: 350px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display:block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border:1px solid #5c1414;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #a72828;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+
+}
