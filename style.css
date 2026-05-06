@@ -60,3 +60,33 @@ footer{
 
 
 }
+
+.grade-filmes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px, 1fr));
+    padding: 20px;
+}
+
+.filme {
+    text-align: center;
+}
+
+.filme img {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: #f51f1f;
+    transition: 0.3s;
+}
+
+.filme img :hover {
+    transform: scale (1.05);
+}
+
+.filme p {
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
